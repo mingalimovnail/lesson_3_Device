@@ -45,7 +45,7 @@ def read_line(device: Device) -> str:
 
     return __take_line(device.data)
 
-def write_line(device: Device) -> str:
+def write_line(device: Device, text: str) -> str:
     """
     Записать строку на устройство
     """
